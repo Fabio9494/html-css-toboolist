@@ -27,6 +27,7 @@ main{
 }
 
 .conteiner{
+    border-top: solid 25px rgb(240, 240, 240);
     background-color: white;
     margin: auto;
     width: 80%;
@@ -34,9 +35,19 @@ main{
     padding-left: 30px;
 }
 
+/*Buttons*/
+.buttons{
+    
+    border-bottom: solid 2px rgb(240, 240, 240);
+    margin-left: -40px;
+    margin-right: -40px; 
+
+}
+
 .tesk{
     width: 50px;
     padding: 5px;
+    margin-bottom:15px;
     font-size: 10px;
     background-color: rgb(121, 163, 208);
     color: white;
@@ -44,6 +55,7 @@ main{
     border: 0;
     border-radius: 2px;
     font-weight: 2px;
+    margin-left: 55px;
 }
 .section{
     width: 60px;
@@ -55,6 +67,90 @@ main{
     border-radius: 2px;
 }
 
+/*list*/
+
+
+
 ul{
     padding: 15px;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+li{
+    padding-top:10px;
+}
+
+
+.cose-fatte{
+    background-color: white;
+    border-radius: 50%;
+    border: solid 3px rgb(15, 231, 0);
+    padding: 0 2px 0 2px;
+    margin-right: 10px;
+    margin-left: -15px;
+}
+
+.cose-non-fatte{
+    background-color: white;
+    border-radius: 50%;
+    border: solid 3px red;
+    padding: 0 2px 0 2px;
+    margin-right: 10px;
+    margin-left: -15px;
+}
+
+.editorial{
+    background-color: rgb(8, 255, 251);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 10px;
+    padding: 3px;
+}
+
+.q1-goals{
+    background-color: rgb(255, 8, 222);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 10px;
+    padding: 3px;
+}
+
+.recruiting{
+    background-color: rgb(8, 255, 99);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 10px;
+    padding: 3px;
+}
+
+.mobile{
+    background-color: rgb(255, 169, 8);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 10px;
+    padding: 3px;
+}
+
+.website{
+    background-color: rgb(254, 112, 180);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 10px;
+    padding: 3px;
+}
+
+.sales{
+    background-color: rgb(255, 8, 222);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 10px;
+    padding: 3px;
 }
